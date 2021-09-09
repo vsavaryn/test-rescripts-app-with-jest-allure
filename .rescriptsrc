@@ -1,0 +1,7 @@
+module.exports = {
+  jest: config => {
+    config.testRunner = "jest-jasmine2";
+    config.setupFilesAfterEnv = ["jest-allure/dist/setup"];
+    return config;
+  }
+}
